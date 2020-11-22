@@ -1,10 +1,15 @@
 import React from 'react';
 import './HomePage.css';
 import { Link } from 'react-router-dom';
+<<<<<<< HEAD:src/forms/homePage.jsx
 import AppsIcon from '@material-ui/icons/Apps';
 import {Avatar} from '@material-ui/core';
 // API
 // AIzaSyCGtt8IzUCfqsGYsP2fQ1P6rEt5kyqBqqI
+=======
+
+
+>>>>>>> 1e61fcdbb165ce10780557c7f525d484229fdd3a:src/forms/HomePage.jsx
 function HomePage() {
 	return <div className='header'>
 		<div className="homepage_nav-header">
