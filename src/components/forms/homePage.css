@@ -24,7 +24,6 @@
 .homepage_nav-header-left{
     display: flex;
     align-items: center;
-    min-width: 12vw;
     justify-content: space-between;
 }
 .homepage_nav-header-right{

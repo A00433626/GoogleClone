@@ -6,7 +6,9 @@ import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
 	<React.StrictMode>
+		{/* <StateProvider intitialState={intitialState} reducer={reducer}> */}
 		<App />
+		{/* </StateProvider> */}
 	</React.StrictMode>,
 	document.getElementById('root'),
 );
