@@ -2,7 +2,7 @@ Google Clone
 
 I started building this google landing page clone using JS framework (React).
 The aim of this project to make the google landing page as close a real google landing page. 
-I'm used the Google search API to make the project even more realistic. \
+I used the Google search API to make the project even more realistic. \
 The following are the tasks involed in this project.\
 [X] Generating Google search API\
 [X] Installing the libraries\
