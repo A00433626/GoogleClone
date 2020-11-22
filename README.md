@@ -15,7 +15,7 @@ The following are the tasks involed in this project.\
 [ ] Developing the search result page content\
 
 
-Reference\
+References\
 
 1) Google Search API\
 "https://developers.google.com/custom-search/v1/overview"\
