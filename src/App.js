@@ -2,13 +2,22 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import HomePage from './forms/homePage';
-import { BroeserRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 function App() {
 	return (
 		<div className='App'>
-			App
+			<Router>
+				<Switch>
+					<Route path='/search'>
+						<div>Hello search</div>
+					</Route>
+					<Route path='/'>
+					<HomePage/>
+					</Route>
+				</Switch>
+			</Router>
+			
 			{/* main page component */}
-			<HomePage />
 			{/* google search api */}
 		</div>
 	);
