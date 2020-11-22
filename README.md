@@ -12,16 +12,16 @@ The following are the tasks involed in this project.\
 [ ] Creating a Redux enviroment\
 [ ] Creatin custom hooks for the serach page\
 [ ] Developing the search result page Header\
-[ ] Developing the search result page content\
+[ ] Developing the search result page content
 
 
 References\
 
 1) Google Search API\
-"https://developers.google.com/custom-search/v1/overview"\
+"https://developers.google.com/custom-search/v1/overview"
 2) Material UI\
-"https://material-ui.com/"\
+"https://material-ui.com/"
 3) React Boostrap\
-"https://react-bootstrap.github.io/"\
+"https://react-bootstrap.github.io/"
 4) Redux\
-"https://redux.js.org/"\
+"https://redux.js.org/"
