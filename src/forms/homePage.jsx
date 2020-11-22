@@ -2,8 +2,7 @@ import React from 'react';
 import './homePage.css';
 import { Link } from 'react-router-dom';
 
-// API
-// AIzaSyCGtt8IzUCfqsGYsP2fQ1P6rEt5kyqBqqI
+
 function HomePage() {
 	return <div className='header'>
 		<div>Hi</div>
