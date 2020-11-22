@@ -1,8 +1,9 @@
 import React from 'react';
-import './HomePage.css';
+import './homePage.css';
 import { Link } from 'react-router-dom';
 import AppsIcon from '@material-ui/icons/Apps';
 import {Avatar} from '@material-ui/core';
+import Search from '../search/Search';
 
 function HomePage() {
 	return <div className='header'>
@@ -24,7 +25,12 @@ function HomePage() {
 				<Avatar/>
 			</div>
 		</div>
-		<div className="homepage_nav-body"></div>
+		<div className="homepage_nav-body">
+		<img alt="Google" height="92" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"/>
+		<div className="homepage_nav-search-input">
+		<Search/>
+		</div>
+		</div>
 	</div>;
 }
 

@@ -36,3 +36,14 @@
 .homepage_nav-header-right > .MuiSvgIcon-root{
     margin-right: 20px;
 } 
+
+.homepage_nav-body{
+flex: 1;
+display: flex;
+margin-top: 10%;
+flex-direction: column;
+}
+.homepage_nav-body > img{
+  object-fit: contain;
+  height: 100px;
+}
