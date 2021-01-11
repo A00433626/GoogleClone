@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/A00433626/googleclone/static/css/main.0a083293.chunk.css",
+    "main.js": "/A00433626/googleclone/static/js/main.5d7bb2aa.chunk.js",
+    "main.js.map": "/A00433626/googleclone/static/js/main.5d7bb2aa.chunk.js.map",
+    "runtime-main.js": "/A00433626/googleclone/static/js/runtime-main.a23e3a1d.js",
+    "runtime-main.js.map": "/A00433626/googleclone/static/js/runtime-main.a23e3a1d.js.map",
+    "static/js/2.593a5182.chunk.js": "/A00433626/googleclone/static/js/2.593a5182.chunk.js",
+    "static/js/2.593a5182.chunk.js.map": "/A00433626/googleclone/static/js/2.593a5182.chunk.js.map",
+    "index.html": "/A00433626/googleclone/index.html",
+    "precache-manifest.39de734df6804543e115686dca25910b.js": "/A00433626/googleclone/precache-manifest.39de734df6804543e115686dca25910b.js",
+    "service-worker.js": "/A00433626/googleclone/service-worker.js",
+    "static/css/main.0a083293.chunk.css.map": "/A00433626/googleclone/static/css/main.0a083293.chunk.css.map",
+    "static/js/2.593a5182.chunk.js.LICENSE.txt": "/A00433626/googleclone/static/js/2.593a5182.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/A00433626/googleclone/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a23e3a1d.js",
+    "static/js/2.593a5182.chunk.js",
+    "static/css/main.0a083293.chunk.css",
+    "static/js/main.5d7bb2aa.chunk.js"
+  ]
+}
