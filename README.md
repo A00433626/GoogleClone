@@ -9,10 +9,13 @@ The following are the tasks involed in this project.\
 [X] creating the code structure\
 [X] Developing the Google home page header\
 [X] Developing the Google home page logo and Google home search page component.\
-[ ] Creating a Redux enviroment\
-[ ] Creatin custom hooks for the serach page\
-[ ] Developing the search result page Header\
-[ ] Developing the search result page content
+[X] Creating a context Api enviroment\
+[X] Getting the data from googlr Api\
+[X] Get the key for the custom search from google programable search\
+[X] Creatin custom hooks for the serach page\
+[X] Developing the search result page Header\
+[X] Developing the search result page content\
+[] Deploying the App to the github\
 
 
 References
@@ -23,5 +26,5 @@ References
 "https://material-ui.com/"
 3) React Boostrap\
 "https://react-bootstrap.github.io/"
-4) Redux\
-"https://redux.js.org/"
+4) React Context API\
+"https://reactjs.org/docs/context.html/"
