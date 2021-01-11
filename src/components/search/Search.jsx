@@ -6,8 +6,8 @@ import { Button } from "@material-ui/core";
 import { useHistory } from "react-router-dom";
 import { actionTypes } from "../../reducer";
 import { useStateValue } from "../../StateProvider";
-function Search() {
-	const [{}, dispatch] = useStateValue();
+function Search({ hideButtons = false }) {
+	const [{ item = "tesla" }, dispatch] = useStateValue();
 	const [inputData, setInputData] = useState("");
 	const history = useHistory();
 
@@ -38,12 +38,16 @@ function Search() {
 				{/* Mic Icon */}
 				<MicIcon className="search-box-input-microphone-icon" />
 			</div>
-			<div className="search-box-buttons">
-				<Button type="submit" variant="outlined" onClick={searchClicked}>
-					Google Search
-				</Button>
-				<Button variant="outlined">I'm Feeling Lucky</Button>
-			</div>
+			{hideButtons ? (
+				""
+			) : (
+				<div className="search-box-buttons">
+					<Button type="submit" variant="outlined" onClick={searchClicked}>
+						Google Search
+					</Button>
+					<Button variant="outlined">I'm Feeling Lucky</Button>
+				</div>
+			)}
 		</form>
 	);
 }
