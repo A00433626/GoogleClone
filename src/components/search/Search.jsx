@@ -7,16 +7,13 @@ import { useHistory } from "react-router-dom";
 import { actionTypes } from "../../reducer";
 import { useStateValue } from "../../StateProvider";
 function Search({ hideButtons = false }) {
-	const [{ item = "tesla" }, dispatch] = useStateValue();
+	const [{}, dispatch] = useStateValue();
 	const [inputData, setInputData] = useState("");
 	const history = useHistory();
 
 	// Handle search
 	const searchClicked = (event) => {
 		event.preventDefault();
-		// if (event.key === "Enter" || event.keyCode === 13) {
-		// 	history.push("/search");
-		// }
 		dispatch({
 			type: actionTypes.SET_SEARCH_TERM,
 			term: inputData,

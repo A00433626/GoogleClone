@@ -13,9 +13,9 @@ import RoomIcon from "@material-ui/icons/Room";
 import MoreVertIcon from "@material-ui/icons/MoreVert";
 export default function SearchResultPage() {
 	const [{ term }, dispatch] = useStateValue();
-	// const { data } = GoogleSearchResult(term);
-	const data = Response;
-	console.log(data);
+	const { data } = GoogleSearchResult(term);
+	// const data = Response;
+	// console.log(data);
 	return (
 		<div className="search-result-page">
 			<div className="search-result-page_Header">
